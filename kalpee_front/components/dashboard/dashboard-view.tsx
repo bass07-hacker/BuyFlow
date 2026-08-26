@@ -39,7 +39,7 @@ export function DashboardView() {
   const objectifPrincipal = objectifs[0]
 
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8 pb-2">
       <div>
         <p className="text-sm text-muted-foreground">Bonjour {utilisateur.prenom},</p>
         <h1 className="mt-1 font-serif text-3xl leading-tight text-foreground text-balance sm:text-4xl">
@@ -50,7 +50,7 @@ export function DashboardView() {
       {/* Résumé */}
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {/* Tirelire — carte marron signature */}
-        <div className="flex flex-col justify-between gap-6 rounded-3xl bg-primary p-6 text-primary-foreground shadow-sm">
+        <div className="relative flex flex-col justify-between gap-6 overflow-hidden rounded-[1.75rem] bg-gradient-to-br from-primary via-primary to-brown-soft p-6 text-primary-foreground shadow-lg shadow-primary/15 sm:p-7">
           <div className="flex items-center justify-between">
             <span className="flex items-center gap-2 text-sm font-medium text-primary-foreground/80">
               <PiggyBank size={18} /> Ma tirelire
@@ -72,7 +72,7 @@ export function DashboardView() {
         </div>
 
         {/* Achats */}
-        <div className="flex flex-col justify-between gap-6 rounded-3xl border border-border bg-card p-6">
+        <div className="flex flex-col justify-between gap-6 rounded-[1.75rem] border border-border/80 bg-card p-6 shadow-sm transition-shadow hover:shadow-md sm:p-7">
           <div className="flex items-center justify-between">
             <span className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
               <ShoppingBag size={18} /> Mes achats

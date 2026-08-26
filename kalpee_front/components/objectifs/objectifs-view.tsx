@@ -41,7 +41,7 @@ export function ObjectifsView() {
   }
 
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-7 pb-2">
       <PageHeader
         title="Mes objectifs"
         subtitle="Épargne pour ce qui compte vraiment"

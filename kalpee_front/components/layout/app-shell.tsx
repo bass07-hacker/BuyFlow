@@ -84,7 +84,7 @@ function MobileTabBar() {
 
   return (
     <nav
-      className="fixed inset-x-0 bottom-0 z-30 flex items-stretch justify-around border-t border-sidebar-border bg-sidebar lg:hidden"
+      className="fixed inset-x-0 bottom-0 z-30 flex items-stretch justify-around border-t border-sidebar-border bg-sidebar/95 shadow-[0_-8px_24px_rgba(62,39,35,0.08)] backdrop-blur-md lg:hidden"
       style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
     >
       {items.map(({ href, label, icon: Icon }) => {
