@@ -40,7 +40,7 @@ export function TirelireView() {
   return (
     <div className="flex flex-col gap-8">
       {/* Carte solde signature */}
-      <div className="relative overflow-hidden rounded-3xl bg-primary p-8 text-center text-primary-foreground shadow-sm">
+      <div className="relative overflow-hidden rounded-[1.75rem] bg-gradient-to-br from-primary via-primary to-brown-soft p-6 text-center text-primary-foreground shadow-lg shadow-primary/15 sm:p-8">
         <div
           className="pointer-events-none absolute -top-16 -right-16 size-56 rounded-full bg-primary-foreground/5"
           aria-hidden

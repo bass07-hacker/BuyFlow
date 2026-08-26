@@ -41,7 +41,7 @@ export function ParametresView() {
   }
 
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-7 pb-2">
       <PageHeader title="Paramètres" subtitle="Gère ton profil et ton compte" />
 
       <section className="rounded-2xl border border-border bg-card p-6">

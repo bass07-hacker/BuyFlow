@@ -12,7 +12,7 @@ export function AuthShell({
   footer: React.ReactNode
 }) {
   return (
-    <div className="flex min-h-screen flex-col bg-background lg:flex-row">
+    <div className="relative flex min-h-screen flex-col bg-background lg:flex-row">
       {/* Brand panel */}
       <div className="relative hidden flex-col justify-between overflow-hidden bg-gradient-to-br from-brown-dark via-primary to-brown-soft p-12 lg:flex lg:w-1/2">
         <Link href="/" className="font-serif text-2xl text-primary-foreground">
@@ -31,7 +31,7 @@ export function AuthShell({
       </div>
 
       {/* Form panel */}
-      <div className="flex flex-1 flex-col items-center justify-center px-4 py-12 sm:px-6">
+      <div className="flex flex-1 flex-col items-center justify-center px-5 py-8 sm:px-6 sm:py-12">
         <div className="w-full max-w-md">
           <Link href="/" className="mb-8 flex font-serif text-2xl text-foreground lg:hidden">
             Kalpee
