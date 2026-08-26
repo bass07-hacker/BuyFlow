@@ -1,0 +1,16 @@
+package com.buyflow.dto.auth;
+
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.Size;
+
+public record ChangePasswordRequest(
+        @NotBlank String ancienMotDePasse,
+        @NotBlank
+        @Size(min = 8, message = "Le mot de passe doit contenir au moins 8 caracteres")
+        @Pattern(
+            regexp = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).+$",
+            message = "Le mot de passe doit contenir au moins une majuscule, une minuscule et un chiffre"
+        )
+        String nouveauMotDePasse
+) {}
