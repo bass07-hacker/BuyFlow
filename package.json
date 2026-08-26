@@ -1,0 +1,13 @@
+{
+  "name": "buyflow",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.34.3",
+  "scripts": {
+    "dev": "pnpm --dir kalpee_front dev",
+    "build": "pnpm --dir kalpee_front build",
+    "start": "pnpm --dir kalpee_front start",
+    "lint": "pnpm --dir kalpee_front lint",
+    "typecheck": "pnpm --dir kalpee_front exec tsc --noEmit"
+  }
+}
