@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/an0nymcoder/Documents/Projets/kalpee-projet-complet4/kalpee_front/app/(auth)/layout.tsx"],"sourcesContent":["export default function AuthLayout({ children }: { children: React.ReactNode }) {\n  return <>{children}</>\n}\n"],"names":["AuthLayout","children"],"mappings":";;;;;;AAAe,SAASA,WAAW,EAAEC,QAAQ,EAAiC;IAC5E,qBAAO;kBAAGA;;;;;;AACZ"}}]
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///vercel/share/v0-project/kalpee_front/app/(auth)/layout.tsx"],"sourcesContent":["export default function AuthLayout({ children }: { children: React.ReactNode }) {\n  return <>{children}</>\n}\n"],"names":["AuthLayout","children"],"mappings":";;;;;;AAAe,SAASA,WAAW,EAAEC,QAAQ,EAAiC;IAC5E,qBAAO;kBAAGA;;;;;;AACZ"}}]
 }
